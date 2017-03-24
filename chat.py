@@ -110,7 +110,7 @@ elif sys.argv[1] == "-c" and len(sys.argv) == 6:
 				#try to unpack dict, if it's not a dict just print
 				try:
 					myTable = json.loads(recvMsg)
-					print [Client table updated.]"
+					print "[Client table updated.]"
 				except ValueError: 
 					print recvMsg,
 			#case: message is from another client

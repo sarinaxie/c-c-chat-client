@@ -3,7 +3,7 @@
 A simple peer-to-peer chat client implented with UDP sockets.
 
 Run  
-`python chat.py -s <port>` to start the server
+`python chat.py -s <port>` to start the server  
 `python chat.py -c <nickname> <server-ip> <server-port> <client-port> to join the chat
 
 Inside the chat,  
